@@ -1,0 +1,48 @@
+theme:
+  name: material
+  features:
+    - content.tabs.link
+    - navigation.instant
+    # - navigation.instant.progress
+    - navitation.path
+    - navigation.prune
+    # - navigation.top
+    - navigation.sections
+    - navigation.tracking
+    # - navigation.tabs
+    - navigation.expand
+  palette:
+    primary: teal
+
+site_name: Tech  Talk  John  Blog
+
+plugins:
+  - blog:
+      blog_dir: blog
+      archive: false
+      categories: true
+      categories_name: Index
+      categories_toc: false
+      post_date_format: medium
+      post_url_format: date
+      categories_allowed:
+        - Hype Curve
+        - Iterative
+        - Teams
+        - Tools
+
+      categories_url_format: "category/{slug}"
+
+  - search:
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+  
+
+repo_url: https://github.com/JohnTelford/mkdocs_blog.git
+
+copyright: Copyright &copy; 2023 John M. Telford
