@@ -39,21 +39,6 @@ theme:
 
 
 plugins:
-  - blog:
-      blog_dir: blog
-      archive: false
-      categories: true
-      categories_name: Index
-      categories_toc: false
-      post_date_format: medium
-      post_url_format: date
-      categories_allowed:
-        - Hype Curve
-        - Iterative
-        - Teams
-        - Tools
-
-      categories_url_format: "category/{slug}"
 
   - search:
 
