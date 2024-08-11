@@ -1,57 +1,58 @@
-site_name: iterate webdev
+site_name: iterate-webdev
+repo_url: https://github.com/JohnTelford/iterate-webdev-venv
 
 theme:
   name: material
   features:
-    - content.tabs.link
-    - navigation.instant
-    # - navigation.instant.progress
-    - navitation.path
-    - navigation.prune
-    # - navigation.top
-    - navigation.sections
-    - navigation.tracking
-    # - navigation.tabs
+    - toc.integrate
     - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top   
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
   palette:
-    primary: teal
-    theme:
-
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
+    - scheme: default
       toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      primary: teal
+      accent: purple 
+    - scheme: slate 
       toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
-
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
 
 plugins:
-
-  - search:
+  - search
 
 markdown_extensions:
-  - abbr
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - admonition
-  - attr_list
-  - def_list
-  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
   - pymdownx.details
-  - pymdownx.superfences:
-  
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
 
-repo_url: https://github.com/JohnTelford/iterate-webdev.git
+nav:
+  - Home: index.md
+  - Teams:
+      - Define: team_define.md
 
 copyright: Copyright &copy; 2024 John M. Telford
