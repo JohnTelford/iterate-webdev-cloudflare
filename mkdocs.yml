@@ -55,5 +55,8 @@ nav:
   - Teams:
       - Team Define: team_define.md
       - Team Design: team_design.md
+      - Team Develop: team_develop.md
+      - Team Deploy: team_deploy.md
+      - Team Maintenance: team_maintenance.md
 
 copyright: Copyright &copy; 2024 John M. Telford

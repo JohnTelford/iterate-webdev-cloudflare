@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+## Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The highest cost over the life time of website projects is remediating defects. Content and software defects cost less when found early, as this chart shows:
 
-## Commands
+<figure markdown>
+  ![bugFixChart](/img/bugFixChart.jpg){ align=center }
+<figcaption>Defect Remediation Costs</figcaption>
+</figure>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+ An Iterative Development Projects is a website development process involves designing, coding, and testing pieces of the application. This style of development helps speed up the development process by breaking down large, complex problems into smaller tasks that can be worked on in parallel. 
+ 
+Developers frequently create  of their work for stakeholders review, rather than waiting [Private Preview Website](preview.md) until the end of development to find any problems. 
 
-## Project layout
+Other defect detection mechanisms built into Iterative Development are:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [VScode](vscode.md) editor tool extensions continually check for syntax and other errors
+
+- [VScode](vscode.md) fast refresh live-editing quickly showing changes, and any runtime errors while editing
+
