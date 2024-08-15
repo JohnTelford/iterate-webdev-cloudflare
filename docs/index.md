@@ -2,10 +2,8 @@
 
 The highest cost over the life time of website projects is remediating defects. Content and software defects cost less when found early, as this chart shows:
 
-<figure markdown>
   ![bugFixChart](/img/bugFixChart.jpg){ align=center }
 <figcaption>Defect Remediation Costs</figcaption>
-</figure>
 
  An Iterative Development Projects is a website development process involves designing, coding, and testing pieces of the application. This style of development helps speed up the development process by breaking down large, complex problems into smaller tasks that can be worked on in parallel. 
  
