@@ -1,17 +1,5 @@
 ## Overview
 
-The highest cost over the life time of website projects is remediating defects. Content and software defects cost less when found early, as this chart shows:
+This website discusses optimizing website development costs over the life time of project using Iterative Web Development technology.
 
-  ![bugFixChart](/img/bugFixChart.jpg){ align=center }
-<figcaption>Defect Remediation Costs</figcaption>
-
- An Iterative Development Projects is a website development process involves designing, coding, and testing pieces of the application. This style of development helps speed up the development process by breaking down large, complex problems into smaller tasks that can be worked on in parallel. 
- 
-Developers frequently create  of their work for stakeholders review, rather than waiting [Private Preview Website](preview.md) until the end of development to find any problems. 
-
-Other defect detection mechanisms built into Iterative Development are:
-
-- [VScode](vscode.md) editor tool extensions continually check for syntax and other errors
-
-- [VScode](vscode.md) fast refresh live-editing quickly showing changes, and any runtime errors while editing
-
+The principle of Iterative Website Development is to develop websites through repeated cycles (iterative) and in smaller portions at a time (incremental), enabling iterative development teams to independently take advantage of what was learned during development of earlier features or versions of the system.
