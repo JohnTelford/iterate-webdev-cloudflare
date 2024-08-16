@@ -4,14 +4,14 @@ repo_url: https://github.com/JohnTelford/iterate-webdev-venv
 theme:
   name: material
   features:
-    - toc.integrate
-    - navigation.expand
-    - navigation.indexes
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.prefetch.progress
-    - navigation.path
-    - navigation.sections
+  #  - toc.integrate
+  #  - navigation.expand
+  #  - navigation.indexes
+  #  - navigation.instant
+  #  - navigation.instant.prefetch
+  # - navigation.instant.progress
+  #  - navigation.path
+  #  - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top   
@@ -54,6 +54,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Overview:
+      - Overview: iterate-webdev.md
   - Teams:
       - Team Define: team_define.md
       - Team Design: team_design.md
