@@ -2,6 +2,7 @@
  
 ## Private Preview Website
 
+
 Each team member has a GitHub account and has [cloned](git.md#clone) a copy fo the Central Project Repository to their workstation
 
 Changes made to the local cloned repositories cannot directly affect the Central Project Repository. It is managed by a *gatekeeper* team member. It requires a [Pull Request Review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) This helps maintain a unified source of truth for project history and files.

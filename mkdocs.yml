@@ -9,7 +9,7 @@ theme:
   #  - navigation.indexes
   #  - navigation.instant
   #  - navigation.instant.prefetch
-  # - navigation.instant.progress
+  #  - navigation.instant.progress
   #  - navigation.path
   #  - navigation.sections
     - navigation.tabs
@@ -58,11 +58,16 @@ nav:
       - Overview: iterate-webdev.md
   - Teams:
       - Team Define: team_define.md
-      - Team Design: team_design.md
+      - Team Minednode Define: MindNode Define.md
+      - Team Minednode Design: MindNode Desing.md
       - Team Develop: team_develop.md
       - Team Deploy: team_deploy.md
       - Team Maintenance: team_maintenance.md
+  - Command:
+      - Command: command_and_control.md
+      
 
-  - QQ:
+
 
 copyright: Copyright &copy; 2024 John M. Telford
+
