@@ -20,4 +20,5 @@ team: Team - Maintenance
 - Organizing members from other teams to be part of the Maintain team while remediating specific defects.
   
 !!! Danger "Defects"
-	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
+
+	Content and software defects cost less when found early. The slightest errors  will require Defect Remediation sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects. 

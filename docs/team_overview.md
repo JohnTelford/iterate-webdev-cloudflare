@@ -6,8 +6,8 @@ title: Team Overview
 
 Iterative website Define, Design, Develop, Deploy and Maintenance teams may be operational at the same time creating, testing, and helping with maintenance  
 
-<div style="text-align: center;">
-<b>Teams</b>
+<!-- <div style="text-align: center;"> -->
+<!-- <b>Teams</b> -->
 
 ``` mermaid
 	graph TD
@@ -17,17 +17,19 @@ Iterative website Define, Design, Develop, Deploy and Maintenance teams may be o
     dev --- mnt
     def --- des
     dep --- mnt
+    dev --- tst
 
     dev([Development])
     def([Define])
     des([Design])
     dep([Deploy])
     mnt([Maintenance])
+    tst([Testing])
 ```
 
-<b>Iterative Development Teams</b>
+<!-- <b>Iterative Development Teams</b> -->
 
-</div>
+<!-- </div> -->
 
 Reaching a [Minimum Viable Product](minimum_viable_product.md) is the first Development teams goal
  

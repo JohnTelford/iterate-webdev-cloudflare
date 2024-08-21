@@ -39,6 +39,11 @@ plugins:
   - search
 
 markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -48,18 +53,18 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - attr_list
 
 nav:
   - Home: index.md
   - Overview:
-      - Overview: iterate-webdev.md
+      -  Overview: iterate-webdev.md
   - Teams:
+      - Team Overview: team_overview.md
       - Team Define: team_define.md
-      - Team Minednode Define: MindNode Define.md
-      - Team Minednode Design: MindNode Desing.md
+      # - Team Minednode Define: MindNode Define.md
+      # - Team Minednode Design: MindNode Desing.md
       - Team Develop: team_develop.md
       - Team Deploy: team_deploy.md
       - Team Maintenance: team_maintenance.md
