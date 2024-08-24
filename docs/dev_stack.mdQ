@@ -12,9 +12,6 @@
 ``` mermaid
 flowchart TB
 	
-    team --- team
-    guard --- guard
-    
 	crepo --- cdn
 
 	cdn --- mkdcdn
@@ -38,8 +35,6 @@ flowchart TB
 	vsc --- mkd
 
 	mkd --- lpreweb
-
-    guard --- crepo
 
 	dev([Team Developers])
 

@@ -4,7 +4,7 @@ This website discusses optimizing website development costs over the life time o
 
 The principle of Iterative Website Development is to develop websites through repeated cycles (iterative) and in smaller portions at a time (incremental), enabling iterative development teams to independently take advantage of what was learned during development of earlier features or versions of the system.
 
-##Iterate Web Development
+## Iterate Web Development
 
 Creating and maintaining websites that meet users needs are, complex, difficult, time consuming and expensive.
 
@@ -16,8 +16,9 @@ This is done by all team members working on website features, fixes, or testing 
 
 ![bugFixChart](/img/bugFixChart.jpg){ width="700" }
 
-!!! info 
-     Content and software defects cost less when found early. The slightest errors  will require Defect Remediation sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects. 
+!!! note "Beware"
+
+    The slightest errors during website development will require Defect Remediation sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects. Content and software defects cost less when found early.
 
 
  

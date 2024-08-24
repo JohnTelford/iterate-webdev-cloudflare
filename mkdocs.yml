@@ -44,6 +44,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -52,14 +53,15 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
-  - pymdownx.details
   - pymdownx.mark
   - attr_list
 
 nav:
   - Home: index.md
+
   - Overview:
       -  Overview: iterate-webdev.md
+
   - Teams:
       - Team Overview: team_overview.md
       - Team Define: team_define.md
@@ -68,8 +70,19 @@ nav:
       - Team Develop: team_develop.md
       - Team Deploy: team_deploy.md
       - Team Maintenance: team_maintenance.md
+
   - Command:
       - Command: command_and_control.md
+
+  - Dev Stack:
+      - Dev Stack: dev_stack.md
+
+  - Technology: 
+      - Technology: technology.md
+
+  
+
+      
       
 
 
