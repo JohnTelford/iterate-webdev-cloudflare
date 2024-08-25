@@ -11,15 +11,15 @@
 
 The iterative website development process uses core technologies:
 
-- [Visual Studio Code](vscode.md) is the Team member's Developers Command and Control center for developing documentation and software
+- [Visual Studio Code](vscode.md) is Team member's use thier Developers Integrated Development Environment (IDE) for developing documentation and software
   
 - [Git](git.md) is the most widely used modern version control system in the world today
 
-- [GitHub](github.md) hosts the Central Project Repository
+- [GitHub](github.md) hosts the Team members repositories and Reomte Projet Repository
 
 - [MkDocs](mkdocs.md) static Site Generator is used to create local, private, and production websites
 
-- [Content Delivery Network](deploy.md) is used by developers by to create local and Stakeholders [Private Preview Website](preview.md)
+- [Content Delivery Network](deploy.md) is used to create local and Stakeholders [Private Preview Website](preview.md), and deploy the production website.
 
 ---
 
