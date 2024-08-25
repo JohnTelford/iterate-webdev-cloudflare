@@ -6,7 +6,7 @@
 ---
 
 
-![CC](/img/Command and Control.png){ width="800"}
+![CC](/img/Command and Control.png){ width="600"}
 
 
 The iterative website development process uses core technologies:
@@ -55,7 +55,7 @@ Read [About version control and Git](https://docs.github.com/en/get-started/usin
 
 ---
 
-#### GitHub
+## GitHub
 
 [GitHub](github.md) is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. [GitHub](github.md) manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
@@ -65,7 +65,7 @@ The core technology of Iterative Development is Git, [GitHub](github.md), a cent
 
 Team members fork a copy of the central repo to their [GitHub](github.md) account, then make a clone on workstations to make changes. They cannot directly make changes to the central repo and commit to their own repo clone. Stakeholders determine when changes are ready, then developers open PRs to the central repository, which the gatekeeper merges after team agreement. The central repo is deployed to the Internet after sufficient testing.
 
-#### GitHub Central Repository.  
+## GitHub Central Repository.  
 
 Iterative website development in teams uses Git, [GitHub](github.md), and a central repository controlled by the project gatekeeper. The team members use the website development stack to develop, deploy, and maintain websites. Team members make changes to their local repository clone, commit changes to their local repository, and may deploy their local repository to a [Private Websites Preview](preview.md) to get stakeholder feedback. A [GitHub](github.md) pull request is made when stakeholders determine the changes are ready, which is examined and tested before being committed to the central [Mkdocs](https://www.mkdocs.org) repository by the gatekeeper. Developers then pull the central repository changes and commit them to their local repository copy of the central project. After sufficient development and testing iterations, the gatekeeper deploys the central project repository to the public internet.
 
