@@ -15,3 +15,5 @@ Command and control are Team Members and the Repository Guardisn
 
 
 ![Command and Control](/img/command_and_control.jpg)
+
+![CC](img/Command_and_Control.png)

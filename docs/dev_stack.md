@@ -5,73 +5,13 @@
 
 ---
 
-## Dev Stack
 
-<div style="text-align: center;">
+![CC](/img/Command and Control.png){ width="800"}
 
-``` mermaid
-flowchart TB
-	
-    team --- team
-    guard --- guard
-    
-	crepo --- cdn
-
-	cdn --- mkdcdn
-
-	mkdcdn --- net
-
-	dev --- vsc 
-
-	github --- crepo
-
-	github --- net
-	
-	vsc --- lrepo
-	
-	net --- prevweb
-
-	net --- proweb
-
-	vsc --- net
-
-	vsc --- mkd
-
-	mkd --- lpreweb
-
-    guard --- crepo
-
-	dev([Team Developers])
-
-	cdn([Content Delivery Network])
-
-	crepo([Central Project Repository])
-
-	github([GitHub]) 
-
-	lrepo([Local Projet Repository])
-
-	lpreweb([Local Preview Website])
-
-	mkd([MkDocs Static Site Generator])
-
-	mkdcdn([MkDocs Static Site Generator])
-
-	net([Internet]) 
-	
-	prevweb([Stakeholders Private Preview Website])
-
-	proweb([Production Website])
-
-	vsc([VScode - Command and Control]) 
-
-```
-<b>Iterative  Development Stack</b>
-</div>
 
 The iterative website development process uses core technologies:
 
-- [Visual Studio Code](vscode.md) is the Team Developers Command and Control center	for developing software
+- [Visual Studio Code](vscode.md) is the Team member's Developers Command and Control center for developing documentation and software
   
 - [Git](git.md) is the most widely used modern version control system in the world today
 
