@@ -25,7 +25,7 @@ Traditionally these companies built workstation products with Intel processors. 
  
 [Apple](https://www.apple.com) is a computer manufacturing company delivering workstation products with Apple developed macOS certified UNIX operating systems.
 
-Apple has released Mac products built with the ARM-based, [M2](https://en.wikipedia.org/w/index.php?title=Apple_M2) Apple silicon designed system on a chip containing 20 billion transistors, solid-state drive, and optimized the Mac operating system. The system on a chip means there are no mother board plugins, memory, or solid-state drive upgrades,  possible. The configuration is chosen at purchase time.
+Apple has released Mac products built with the ARM-based, [M3](https://en.wikipedia.org/w/index.php?title=Apple_M3) Apple silicon designed system on a chip containing 20 billion transistors, solid-state drive, and optimized the Mac operating system. The system on a chip means there are no mother board plugins, memory, or solid-state drive upgrades,  possible. The configuration is chosen at purchase time.
 
 The last Apple processor transition was the Motorola 68000 to the Intel x86. It took time for Apple vendors and users to update their hardware and software to run on the x86. Apple created the Rosetta translation application that ran Motorola 68000 binary code on x86 machines. The M2 translation layer Rosetta 2, is about 80% the speed of the of native Apple Silicon code. The single-core Rosetta 2 benchmark running on a low end [M2 MacBook Air](https://www.apple.com/macbook-air/) with 8GB of RAM, is faster than other x86 Mac machines in single core benchmark. The M2 MacBook Air running native is faster than most any competitors top of the line x86 machine.
 
