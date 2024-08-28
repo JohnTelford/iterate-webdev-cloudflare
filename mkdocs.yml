@@ -7,11 +7,11 @@ theme:
   #  - toc.integrate
   #  - navigation.expand
   #  - navigation.indexes
-  #  - navigation.instant
-  #  - navigation.instant.prefetch
-  #  - navigation.instant.progress
-  #  - navigation.path
-  #  - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top   
@@ -59,8 +59,11 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - Overview:
-      -  Overview: iterate-webdev.md
+  - Command and Control: command_and_control.md
+
+  - Dev Stack: dev_stack.md
+
+  -  Overview: iterate-webdev.md
 
   - Teams:
       - Team Overview: team_overview.md
@@ -71,17 +74,9 @@ nav:
       - Team Deploy: team_deploy.md
       - Team Maintenance: team_maintenance.md
 
-  - Command:
-      - Command: command_and_control.md
+  - Technology Docs: tech_docs.md
 
-  - Dev Stack:
-      - Dev Stack: dev_stack.md
-
-  - Technology: 
-      - Technology: technology.md
-
-  - Workstations:
-      - Workstations: workstations.md
+  - Workstations: workstations.md
 
 
 

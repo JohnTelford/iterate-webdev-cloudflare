@@ -16,7 +16,7 @@ This is done by all team members working on website features, fixes, or testing 
 
 ![bugFixChart](/img/bugFixChart.jpg){ width="700" }
 
-!!! note "Beware"
+!!! info 
 
     The slightest errors during website development will require Defect Remediation sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects. Content and software defects cost less when found early.
 
