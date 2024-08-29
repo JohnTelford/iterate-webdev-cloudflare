@@ -1,5 +1,6 @@
-site_name: iterate-webdev
-repo_url: https://github.com/JohnTelford/iterate-webdev-venv
+site_name: Iterate Webdev
+#repo_url: https://github.com/JohnTelford/iterate-webdev-venv
+repo_name: JohnTelford/iterate-webdev-venv
 
 theme:
   name: material
@@ -63,7 +64,9 @@ nav:
 
   - Dev Stack: dev_stack.md
 
-  -  Overview: overview.md
+  #- Glossary: glossary.md
+
+  - Overview: overview.md
 
   - Teams:
       - Team Overview: team_overview.md
