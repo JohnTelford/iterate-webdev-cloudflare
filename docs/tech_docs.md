@@ -29,11 +29,9 @@ Technology Documents haves 2 links:
 
 ---
 
-## Python
-
-
-
-[Web Search](https://www.perplexity.ai/search/python-ELqu42nFSD2vJRUkGcLT3w)
+Python
+: language
+: Web Search(https://www.perplexity.ai/search/python-ELqu42nFSD2vJRUkGcLT3w)
 
 ---
 
@@ -41,7 +39,7 @@ Technology Documents haves 2 links:
 
 [VSVisual Studio CodeCode](https://code.visualstudio.com)
 
-[Web Search](https://www.perplexity.ai/search/vscode-Nqn0CvqISXyuvgH0YwUrvg)
+[Web Search](https://w•ww.perplexity.ai/search/vscode-Nqn0CvqISXyuvgH0YwUrvg)
 
 ---
 

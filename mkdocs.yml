@@ -63,7 +63,7 @@ nav:
 
   - Dev Stack: dev_stack.md
 
-  -  Overview: iterate-webdev.md
+  -  Overview: overview.md
 
   - Teams:
       - Team Overview: team_overview.md
@@ -75,6 +75,8 @@ nav:
       - Team Maintenance: team_maintenance.md
 
   - Technology Docs: tech_docs.md
+
+  - Technology Reference: tech_ref.md
 
   - Workstations: workstations.md
 
