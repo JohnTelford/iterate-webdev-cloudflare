@@ -1,13 +1,12 @@
 site_name: Iterate Webdev
-#repo_url: https://github.com/JohnTelford/iterate-webdev-venv
-repo_name: JohnTelford/iterate-webdev-venv
+repo_url: https://github.com/JohnTelford/iterate-webdev-venv
 
 theme:
   name: material
   features:
-  #  - toc.integrate
-  #  - navigation.expand
-  #  - navigation.indexes
+    - toc.integrate
+    - navigation.expand
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
