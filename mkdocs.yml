@@ -82,7 +82,9 @@ nav:
 
   - Workstations: workstations.md
 
-
+[build]
+  command = "mkocs build"
+  publish - "site"
 
   
 
