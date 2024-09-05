@@ -82,15 +82,6 @@ nav:
 
   - Workstations: workstations.md
 
-[build]
-  command = "mkdocs build"
-  publish - "site"
-
-  
-
-      
-      
-
 
 
 copyright: Copyright &copy; 2024 John M. Telford
