@@ -2,7 +2,7 @@
 
 [Pages github](https://pages.github.com)
 
-## "Material for MkCocs
+## "Material for MkDocs
 
 [Pages Material](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
 
