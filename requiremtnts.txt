@@ -1,6 +1,2 @@
 mkdocs=1.5.3
 mkdocs-material 
-mkdocstrings
-mkdocs-autorefs
-mkdocs-rss-plugin
-markdown-it-py
