@@ -1,6 +1,6 @@
 # Iterative website Development
 
-version 0.1.1.3 jmtdev
+version 0.1.1.1 netlify jmtdev
 
 ## Introduction
 
