@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../tech_docs/">
+        <link rel="prev" href="../workstations/">
       
+      
+        <link rel="next" href="../tech_docs/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Technology Reference - Iterate Webdev</title>
+        <title>Cloudflare Deploy - Iterate Webdev</title>
       
     
     
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#technology-reference" class="md-skip">
+        <a href="#cloudflair-mkdocs-material-configuration" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Technology Reference
+              Cloudflare Deploy
             
           </span>
         </div>
@@ -318,7 +320,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../mkdocs_material_cloudflare/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -707,10 +709,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../mkdocs_material_cloudflare/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Cloudflare Deploy
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -719,6 +741,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-mkdocs-material" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Up MkDocs Material
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-to-cloudflare-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying to Cloudflare Pages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-domain-setup-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Domain Setup (Optional)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Tips
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -749,19 +827,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../tech_ref/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -770,7 +839,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -801,50 +869,74 @@
   
 
 
-<h1 id="technology-reference">Technology Reference</h1>
+<h1 id="cloudflair-mkdocs-material-configuration">cloudflair mkdocs material configuration</h1>
+<p>To configure <strong>MkDocs Material</strong> for deployment on <strong>Cloudflare Pages</strong>, is done by  follow a series of steps that involve setting up your MkDocs project, configuring it correctly, and then deploying it to Cloudflare. Below is a comprehensive guide to help you through the process.</p>
+<h2 id="setting-up-mkdocs-material">Setting Up MkDocs Material</h2>
+<ol>
+<li>
+<p><strong>Install MkDocs and Material Theme</strong>:<br />
+    Begin by installing MkDocs and the Material theme using pip:</p>
+<div class="highlight"><pre><span></span><code>pip install mkdocs mkdocs-material
+</code></pre></div>
+</li>
+<li>
+<p><strong>Create a New MkDocs Project</strong>:<br />
+    Create a new project directory:</p>
+</li>
+<li><strong>Configure <code>mkdocs.yml</code></strong>:<br />
+    Open the <code>mkdocs.yml</code> file in your project directory and set the theme to Material. Your configuration should look something like this:</li>
+<li><strong>Add Dependencies</strong>:<br />
+    To ensure all dependencies are installed during deployment, create a <code>requirements.txt</code> file in your project directory:</li>
+</ol>
+<h2 id="deploying-to-cloudflare-pages">Deploying to Cloudflare Pages</h2>
+<ol>
+<li>
+<p><strong>Create a Cloudflare Pages Application</strong>:</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Apple_M1">Apple M1</a></li>
-<li><a href="https://www.apple.com">Apple</a></li>
-<li><a href="https://en.wikipedia.org/wiki/ARM_architecture">ARM-based</a></li>
-<li><a href="https://asciidoctor.org/">AsciiDoctor</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-<li><a href="https://spec.commonmark.org">CommonMark Spec</a></li>
-<li><a href="https://commonmark.org">CommonMark</a></li>
-<li><a href="https://doc.rust-lang.org/cargo/">Cargo Book</a></li>
-<li><a href="https://www.econtechnologies.com/chronosync/overview.html">ChronoSync</a></li>
-<li><a href="https://docusaurus.io">Docusaurus</a></li>
-<li><a href="http://docutils.sourceforge.net">Docutils</a></li>
-<li><a href="https://c-command.com/eaglefiler/">EagleFiler</a></li>
-<li><a href="https://git-scm.com/">Git</a></li>
-<li><a href="https://github.com/">GitHub</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-<li><a href="https://ia.net/writer">iA Writer</a></li>
-<li><a href="https://jamstack.org">Jamstack</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-<li><a href="https://johntelford.com">JohnTelford.com</a></li>
-<li><a href="https://reactjs.org/docs/introducing-jsx.html#Next.js-focus-wrapper">JSX</a></li>
-<li><a href="https://www.linux.org/">Linux</a></li>
-<li><a href="https://www.markdownguide.org">Markdown</a></li>
-<li><a href="https://rust-lang.github.io/mdBook/">mdBook</a></li>
-<li><a href="https://mdxjs.com">MDX</a></li>
-<li><a href="https://github.com/jxnblk/mdx-deck">MDX Deck</a></li>
-<li><a href="https://www.microsoft.com/">Microsoft</a></li>
-<li><a href="https://cli.netlify.com/">Netlify CLI Command</a></li>
-<li><a href="https://www.netlify.com">Netlify</a></li>
-<li><a href="https://nodejs.org/en/">Node</a></li>
-<li><a href="https://reactjs.org">React</a></li>
-<li><a href="https://reactjs.org/docs/introducing-jsx.html#Next.js-focus-wrapper">React JSX</a></li>
-<li><a href="https://jamstack.org/generators/">Site Generators</a></li>
-<li><a href="https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=jamstackorg&amp;utm_medium=what-are-ssg-pnh&amp;utm_campaign=devex">Static Site Generator</a></li>
-<li><a href="https://tailwindcss.com">Tailwindcss Utility CSS Classes</a></li>
-<li><a href="https://github.com/tailwindlabs/tailwindcss-typography">Tailwindcss Typography</a></li>
-<li><a href="https://taio.app">Taio</a></li>
-<li><a href="https://templates.netlify.com/?utm_source=blog&amp;utm_medium=about-ssgs-pnh&amp;utm_campaign=devex">Templates</a></li>
-<li><a href="https://vercel.com/home">Vercel</a></li>
-<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-<li><a href="https://marketplace.visualstudio.com/">Visual Studio Code Extension</a></li>
-<li>[Web.dev][def]</li>
+<li>Log in to your Cloudflare dashboard.</li>
+<li>Navigate to <strong>Workers &amp; Pages</strong> and click on <strong>Create Application</strong>.</li>
+<li>Select the <strong>Pages</strong> tab.</li>
 </ul>
+</li>
+<li>
+<p><strong>Connect Your GitHub Repository</strong>:</p>
+<ul>
+<li>Connect your GitHub account and select the repository containing your MkDocs project.</li>
+<li>Set the branch you want to deploy (usually <code>main</code> or <code>master</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Configure Build Settings</strong>:</p>
+<ul>
+<li>Under the build settings, select "MkDocs" as the framework preset.</li>
+<li>Modify the build command to ensure MkDocs is installed and built correctly:</li>
+<li>Specify the root directory if necessary (e.g., <code>/site</code> if that's where your output files are).</li>
+</ul>
+</li>
+<li>
+<p><strong>Deploy Your Project</strong>:<br />
+    Click on <strong>Save and Deploy</strong>. Cloudflare will build your project based on the specified settings.</p>
+</li>
+</ol>
+<h2 id="custom-domain-setup-optional">Custom Domain Setup (Optional)</h2>
+<p>If you want to use a custom domain instead of the default <code>&lt;project&gt;.pages.dev</code>, follow these steps:</p>
+<ol>
+<li>In your Cloudflare dashboard, navigate to your Pages project.</li>
+<li>Go to the <strong>Custom Domains</strong> section and set up your custom domain.</li>
+<li>Ensure that your DNS records point to Cloudflare's nameservers.</li>
+</ol>
+<h2 id="additional-tips">Additional Tips</h2>
+<ul>
+<li>Ensure that any plugins or additional configurations you wish to use in MkDocs are included in your <code>requirements.txt</code>.</li>
+<li>Use the live preview feature during development by running: This allows you to see changes in real-time.</li>
+<li>For advanced configurations, refer to the <a href="https://squidfunk.github.io/mkdocs-material/creating-your-site/">Material for MkDocs documentation</a> for options like customizing colors, fonts, and navigation.</li>
+</ul>
+<p>By following these steps, you can successfully configure and deploy an MkDocs Material site on Cloudflare Pages, allowing for easy management of documentation projects with robust hosting capabilities.</p>
+<p>How do I customize the colors and fonts in Material for MkDocs</p>
+<p>What are the steps to set up site analytics in MkDocs</p>
+<p>How can I add a comment system to my MkDocs site</p>
+<p>What are the advanced customization options available in Material for MkDocs</p>
+<p>How do I set up social cards in MkDocs</p>
 
 
 
