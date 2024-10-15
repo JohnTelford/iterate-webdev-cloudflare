@@ -82,7 +82,7 @@ nav:
 
   - Workstations: workstations.md
 
-
+dev_addr: 127.0.0.1:5000
 
 copyright: Copyright &copy; 2024 John M. Telford
 
