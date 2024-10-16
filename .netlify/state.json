@@ -1,0 +1,21 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Phoenix",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "AZ",
+				"name": "Arizona"
+			},
+			"timezone": "America/Phoenix",
+			"latitude": 33.4168,
+			"longitude": -112.0268,
+			"postalCode": "85034"
+		},
+		"timestamp": 1729026062499
+	},
+	"siteId": "63617a03-fb6a-488d-9249-885a4adf65a3"
+}
